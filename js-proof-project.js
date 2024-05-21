@@ -28,7 +28,7 @@ function mintNFT (name, eye_color, skin_color) {
 function listNFTs () {
     for(let i = 0; i < nfts.length ; i++){
         let tempNFT = nfts[i];
-        console.log(tempNFT.Name, tempNFT.EyeColor, tempNFT.SkinColor);
+        console.log('Name = ' + tempNFT.Name,', eye color = ' + tempNFT.EyeColor, ', skin color = ' + tempNFT.SkinColor);
     }
 }
 
